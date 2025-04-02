@@ -6,7 +6,7 @@
 
 .robot-face-shape {
   height: 500px;
-  width: 500px;
+  width: 30.9em;
   border: solid 20px lime;
   background: linear-gradient(to left, magenta, blue);
   border-radius: 50%;
@@ -43,6 +43,7 @@
   border: solid 5px greenyellow;
   border-radius: 90%;
   background-color: blueviolet;
+  opacity: 50%;
   position: absolute;
   top: 315px;
   left: 320px;
@@ -50,12 +51,14 @@
 
 .robot-ear-right {
   height: 170px;
-  width: 40px;
+  width: 100px;
   border: dotted 5px green;
-  background-color: burlywood;
+  background-image: url(https://picsum.photos/id/237/200/300);
+  background-size: cover;
+  background-position: right;
   position: absolute;
   top: 300px;
-  right: 480px;
+  right: 420px;
 }
 
 .robot-nose {
@@ -136,8 +139,8 @@
 .robot-hair-style {
   background-color: black;
   border: solid 1px black;
-  height: 300px;
-  width: 400px;
+  height: 30%;
+  width: 26%;
   position: absolute;
   top: 70px;
   left: 570px;
